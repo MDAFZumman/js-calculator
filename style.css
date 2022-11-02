@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+main {
+    justify-content: center;
+    display: flex;
+}
+table{
+    background-color: black;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+    color: red;
+    border: 1px solid aqua;
+}
+input[type="button"] {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+input[class="double-span"] {
+    width: 200px;
+}
+input[type="button"]:hover {
+    color: black;
+    background-color: white;    
+}
+input[type="text"] {
+    width: 400px;
+    height: 100px;
+    text-align: right;
+    font-size: 50px;
+    font-weight: bolder;
+}
+/* Responsive Section for Mobile */
+@media (max-width:600px) {
+    input[type="button"] {
+        width: 60px;
+        height: 60px;
+        font-size: larger;
+        font-weight: bold;
+    }
+    input[class="double-span"] {
+        width: 120px;
+    }
+    input[type="text"] {
+        width: 240px;
+        height: 60px;
+        text-align: right;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
