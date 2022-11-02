@@ -43,6 +43,9 @@ input[type="text"] {
 }
 /* Responsive Section for Mobile */
 @media (max-width:600px) {
+    table{
+        margin-top: 50px;
+    }
     input[type="button"] {
         width: 60px;
         height: 60px;
